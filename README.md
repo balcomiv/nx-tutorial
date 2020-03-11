@@ -88,3 +88,8 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 ### Testing
 
 - ng e2e todos-e2e --watch
+
+## Kill Process Running on Port
+
+- netstat -ano|findstr "PID :8081"
+- taskkill /pid 18264 /f
