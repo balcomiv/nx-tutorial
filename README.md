@@ -93,3 +93,6 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 - netstat -ano|findstr "PID :8081"
 - taskkill /pid 18264 /f
+
+## Helpful Links
+- https://github.com/sitepoint-editors/angular-todo-app/tree/part-1/src
