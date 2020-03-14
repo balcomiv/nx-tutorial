@@ -86,6 +86,8 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 ## Commands Used
 
 - ng g @nrwl/nest:app api --frontendProject=todos
+- ng g @nrwl/workspace:lib data
+- ng g @nrwl/angular:lib ui
 
 ### Testing
 
