@@ -85,6 +85,8 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ## Commands Used
 
+- ng g @nrwl/nest:app api --frontendProject=todos
+
 ### Testing
 
 - ng e2e todos-e2e --watch
@@ -95,4 +97,9 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 - taskkill /pid 18264 /f
 
 ## Helpful Links
+
 - https://github.com/sitepoint-editors/angular-todo-app/tree/part-1/src
+
+### Toggle between editor and temrinal
+
+- https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal-in-visual-studio-code
