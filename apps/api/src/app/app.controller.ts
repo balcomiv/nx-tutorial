@@ -13,6 +13,6 @@ export class AppController {
 
   @Post('addTodo')
   addTodo() {
-    return this.addTodo();
+    return this.appService.addTodo();
   }
 }

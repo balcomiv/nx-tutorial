@@ -3,7 +3,7 @@ import { Todo } from '@nx-tutorial/data';
 
 @Injectable()
 export class AppService {
-  todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 1' }];
+  todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
 
   getData(): Todo[] {
     return this.todos;

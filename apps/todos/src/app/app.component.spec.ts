@@ -1,11 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
+import { UiModule } from '@nx-tutorial/ui';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule],
+      imports: [RouterTestingModule, HttpClientTestingModule, UiModule],
       declarations: [AppComponent]
     }).compileComponents();
   }));
@@ -19,7 +21,7 @@ describe('AppComponent', () => {
   it(`should have as title 'todos'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('todos');
+    expect(app.title).toEqual('Welcome to todos!');
   });
 
   it('should render title', () => {
