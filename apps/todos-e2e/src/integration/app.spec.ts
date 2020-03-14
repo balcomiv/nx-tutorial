@@ -8,7 +8,7 @@ describe('todos', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Todos');
+    getGreeting().contains('Welcome');
   });
 
   it('should display todos', () => {
