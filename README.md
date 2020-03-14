@@ -88,6 +88,7 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 - ng g @nrwl/nest:app api --frontendProject=todos
 - ng g @nrwl/workspace:lib data
 - ng g @nrwl/angular:lib ui
+- ng g component todos --project=ui --export
 
 ### Testing
 

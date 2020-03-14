@@ -5,12 +5,16 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
+import { UiModule } from '@nx-tutorial/ui';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabled' })
+    RouterModule.forRoot([], { initialNavigation: 'enabled' }),
+    // Custom
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
