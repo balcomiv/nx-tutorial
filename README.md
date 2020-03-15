@@ -89,6 +89,10 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 - ng g @nrwl/workspace:lib data
 - ng g @nrwl/angular:lib ui
 - ng g component todos --project=ui --export
+- ng add @nrwl/storybook
+- ng g @nrwl/angular:storybook-configuration ui
+- ng run ui:storybook
+- ng run ui-e2e:e2e --watch
 
 ### Testing
 
@@ -101,8 +105,18 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 ## Helpful Links
 
+### Storybook Integration
+
+- https://blog.nrwl.io/ui-testing-with-storybook-and-nx-4b86975224c
+
+### Misc
+
 - https://github.com/sitepoint-editors/angular-todo-app/tree/part-1/src
 
 ### Toggle between editor and temrinal
 
 - https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal-in-visual-studio-code
+
+## Reverse Proxy
+
+- https://medium.com/bb-tutorials-and-thoughts/angular-how-to-proxy-to-backend-server-6fb37ef0d025

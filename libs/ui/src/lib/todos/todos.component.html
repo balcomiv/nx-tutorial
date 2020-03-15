@@ -1,3 +1,7 @@
-<ul>
+<ul *ngIf="todos; else noTodos">
   <li *ngFor="let t of todos" class="todo">{{ t.title }}!!!</li>
 </ul>
+
+<ng-template #noTodos>
+  <div>No todos...</div>
+</ng-template>
